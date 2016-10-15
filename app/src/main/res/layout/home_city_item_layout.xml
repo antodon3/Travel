@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/head_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大陆热门目的地"
+        android:textSize="15sp"
+        android:textColor="@color/colortext"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colortext"/>
+        <com.oy.widget.MyGridView
+            android:id="@+id/mygridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="auto_fit"
+            android:layout_marginTop="10dp"
+            android:columnWidth="100dp"/>
+    <TextView
+        android:id="@+id/foot_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20省旅游攻略"
+        android:gravity="center"
+        android:textColor="@color/colorapp"/>
+</LinearLayout>

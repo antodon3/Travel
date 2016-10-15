@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#e9e3e3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="旅行榜单"
+            android:textColor="@color/colortext"
+            android:layout_margin="5dp"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义行程：收藏榜单后自动生成行程"
+            android:background="#fde2e1e1"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+        <com.oy.widget.MyListView
+            android:id="@+id/bangdan_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.oy.widget.MyListView>
+    </LinearLayout>
+
+
+</LinearLayout>
